@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio()
+	{
+	inteiro a, b
+	a = 11 
+	b = 99 
+	se (a >= b ou b < 9) //O programa irá analisar tanto se 'a' é maior ou igual a 'b' e se ‘b’ é menor que 9.
+	    {
+		  escreva("A afirmativa é verdadeira") //Se uma das analises fossem verdadeiras, esta seria a mensagem exibida.
+	    }                                   
+	    senao
+	    {
+	    	escreva("A afirmativa é falsa") //Como 'a' é diferente que 'b' e 'b' é maior que 9, o programa irá exibir esta mensagem.
+	    }                                     
+	}
+}

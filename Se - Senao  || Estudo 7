@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio()
+	{
+	inteiro a, b
+	a = 37 
+	b = 50 
+	se (nao(b != 50 ou b <= a)) //O programa irá analisar se 'b' NÃO É diferente de '50' ou se 'b' NÃO É menor ou igual a 'a'
+	    {
+		  escreva("A afirmativa é verdadeira") //Como 'b' É IGUAL a '50' e 'b' É MAIOR que 'a' , o programa irá exibir esta mensagem.
+	    }                                   
+	    senao
+	    {
+	    	escreva("A afirmativa é falsa") 
+	    }                                     
+	}
+}

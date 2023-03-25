@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio()
+	{
+	inteiro a, b
+	a = 5 
+	b = 5 
+	se (nao(b == b e b >= 5)) //O programa irá analisar se 'b' NÃO É igual 'b' e se 'b' NÃO É maior igual a 5
+	    {
+		  escreva("A afirmativa é verdadeira") 
+	    }                                   
+	    senao
+	    {
+	    	escreva("A afirmativa é falsa") //Como 'b' É IGUAL a 'b' e 'b' É IGUAL a 5, o programa irá exibir esta mensagem.
+	    }                                     
+	}
+}

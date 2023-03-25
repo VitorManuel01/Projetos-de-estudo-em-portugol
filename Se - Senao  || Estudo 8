@@ -1,0 +1,17 @@
+ programa
+{
+	funcao inicio()
+	{
+	inteiro a, b
+	a = 12 
+	b = 27 
+	se ((a < b) e nao(b > 30)) //O programa irá analisar se 'a'É menor que 'b' E se 'b' NÃO É maior que '30'
+	    {
+		  escreva("A afirmativa é verdadeira") //Como 'a' É MENOR que 'b' E 'b' É MENOR que '30' , o programa irá exibir esta mensagem.
+	    }                                   
+	    senao
+	    {
+	    	escreva("A afirmativa é falsa") 
+	    }                                     
+	}
+}

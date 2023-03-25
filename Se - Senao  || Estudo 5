@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio()
+	{
+	inteiro a, b
+	a = 21 
+	b = 36 
+	se (nao(a > b)) //O programa irá analisar se 'a' NÃO É MAIOR que 'b'.
+	    {
+		  escreva("A afirmativa é verdadeira") //Como 'b' É MAIOR que 'a', o programa irá exibir esta mensagem.
+	    }                                   
+	    senao
+	    {
+	    	escreva("A afirmativa é falsa") //Caso contrário, esta seria a mensagem exibida.
+	    }                                     
+	}
+}

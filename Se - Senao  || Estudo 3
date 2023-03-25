@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio()
+	{
+	inteiro a, b
+	a = 72 
+	b = 35 
+	se (a == b ou b != 45) //O programa irá analisar tanto se 'a' igual a ela mesma e se 'b' diferente de 45.
+	    {
+		  escreva("A afirmativa é verdadeira") //Como 'a' é diferente que 'b', porém, 'b' é diferente de 45, o programa irá exibir esta mensagem.
+	    }                                   
+	    senao
+	    {
+	    	escreva("A afirmativa é falsa") //Se todas as condições fossem falsas, esta seria a mensagem exibida.
+	    }                                     
+	}
+}

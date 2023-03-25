@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro var1, var2
+
+	var1 = 68 //20 é o valor fixo para a variavel 1
+	var2 = 13 //25 é o valor fixo para a variavel 2
+
+	
+	se (var1 != var1 ou var2 < var1) //O programa irá analisar tanto se var1 é diferente que ela mesma quanto se var2 é menor var1
+	    {
+		  escreva("A afirmativa é verdadeira") //Como var1 é igual a ela mesma e var2 é maior que var1, o programa irá exibir esta mensagem
+	    }                                   //porém, apenas uma das condições precisaria ser verdadeira para esta mensagem ser exibida.
+	    senao
+	    {
+	    	escreva("A afirmativa é falsa") //Se ambas análises forem falsas, esta será a mensagem exibida
+	    }                                     
+	}
+}

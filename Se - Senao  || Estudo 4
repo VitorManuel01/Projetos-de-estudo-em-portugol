@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio()
+	{
+	inteiro a, b
+	a = 30 
+	b = 30 
+	se (b >= a ou b < 10) //O programa irá analisar tanto se 'b' maior ou igual a 'a' quanto se 'b' é menor que 10.
+	    {
+		  escreva("A afirmativa é verdadeira") //Como 'b' é igual 'a', mesmo que, 'b' seja maior que 10, o programa irá exibir esta mensagem.
+	    }                                   
+	    senao
+	    {
+	    	escreva("A afirmativa é falsa") //Se todas as condições fossem falsas, esta seria a mensagem exibida.
+	    }                                     
+	}
+}
